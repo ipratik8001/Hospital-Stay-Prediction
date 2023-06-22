@@ -48,5 +48,11 @@ One way to determine what our features are measuring is to check their relations
 
 We also have to check for feature leakage, that is, if any of our features are too highly related to the target (Stay in this case). That doesn't seem to be the case here.
 
-Create Final Dataset with Features to be used in Models
+Create a Final Dataset with Features to be used in Models
 We think the following features can be dropped from this dataset as they do not seem to contribute to our business problem/project and would not affect LOS: Hospital Code, Hospital Type Code, City Code Hospital, Hospital Region Code, Patient ID, City Code Patient
+
+
+Conclusion:-
+The ability to predict LOS can provide a clinical indicator of the health status of a patient as well as assist in predicting the level of care that is required.LOS varies with respect to many factors including severity of illness, diagnosis and a variety of patient factors. This paper provides a review of LoS prediction methods, their respective shortcomings as well as the types of data and features that have been used in the literature. Despite the continuing efforts to predict and reduce the LOS of patients, The model tuning and data preprocessing steps are too specific and result in a large proportion of the current prediction mechanisms being restricted to the hospital that they were employed in.
+
+Machine learning implementations and their explanations, if not sufficiently interpretable, could further hamper the day-to-day effort, of a healthcare worker. Balancing the interpretability of such models with the overall prediction performance that they provide will be a key challenge in the future of LOS prediction.
